@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smit_hive_database/days_functionality/days_ui.dart';
 import 'package:smit_hive_database/hive_app_ui/local_app_ui.dart';
 
 void main() {
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:LocalAppUi(),
+      home:DaysUi(),
+      //LocalAppUi(),
     );
   }
 }
